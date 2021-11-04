@@ -29,3 +29,13 @@ export interface IAddressNumberParams extends IAddressParam {
 export interface IParaIdParam extends ParamsDictionary {
 	paraId: string;
 }
+
+export interface IPassword {
+	password: string;
+}
+
+export interface ITransferParam extends ParamsDictionary {
+	recipient: string;
+	amount: string;
+	secretPhrase: string;
+}

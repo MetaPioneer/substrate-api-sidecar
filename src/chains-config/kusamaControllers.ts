@@ -28,6 +28,8 @@ export const kusamaControllers: ControllerConfig = {
 		'TransactionFeeEstimate',
 		'TransactionMaterial',
 		'TransactionSubmit',
+		'AccountsInfo',
+		'Chain',
 	],
 	options: {
 		finalizes: true,

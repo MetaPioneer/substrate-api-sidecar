@@ -27,6 +27,8 @@ export const polkadotControllers: ControllerConfig = {
 		'TransactionFeeEstimate',
 		'TransactionMaterial',
 		'TransactionSubmit',
+		'AccountsInfo',
+		'Chain',
 	],
 	options: {
 		finalizes: true,

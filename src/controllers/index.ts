@@ -21,6 +21,7 @@ import {
 	TransactionMaterial,
 	TransactionSubmit,
 } from './transaction';
+import { AccountsInfo, Chain } from './extends';
 
 /**
  * Object containing every controller class definition.
@@ -49,4 +50,6 @@ export const controllers = {
 	TransactionMaterial,
 	TransactionSubmit,
 	Paras,
+	AccountsInfo,
+	Chain,
 };
